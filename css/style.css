@@ -1,0 +1,27 @@
+#principal{
+    background-image: url(./image/4.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+body {
+    
+}
+.contenedor-principal{
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    width: 400px;
+    background-color: #ae3245;
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+}
