@@ -8,8 +8,8 @@ let parejasEncontradas = [];
 Inicio = false;
 Reinicio = false;
 let timerInterval;
-let timeElapsed = 0; // Variable to store the elapsed time
-let timerStarted = false; // Flag to check if timer has started
+let timeElapsed = 0;
+let timerStarted = false;
 
 const cajas = document.querySelectorAll('.caja');
 const imagenes = document.querySelectorAll('.img');
