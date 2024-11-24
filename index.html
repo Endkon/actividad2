@@ -4,32 +4,38 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=devide-width, initial-scale=1.0">
-	<script src="script/juego.js"></script>
+	
     <link rel="stylesheet" href="css/style.css">
 	<title>Javascript</title>
 </head>
 
 <body>
+    <div class="contador" id='contador'>Parejas : 0</div>
+    <div id="tiempo">Tiempo: 0:00</div>
 	<div class="contenedor-principal">
-        <div class="contenedor" id="contenedor1">
-            <div class="caja"><img src=image/1.png></div>
-            <div class="caja"><img src=image/2.png></div>
-            <div class="caja"><img src=image/3.png></div>
-            <div class="caja"><img src=image/4.png></div>
-            <div class="caja">Caja 1</div>
-            <div class="caja">Caja 2</div>
-            <div class="caja">Caja 3</div>
-            <div class="caja">Caja 4</div>
-            <div class="caja">Caja 1</div>
-            <div class="caja">Caja 2</div>
-            <div class="caja">Caja 3</div>
-            <div class="caja">Caja 4</div>
-            <div class="caja">Caja 1</div>
-            <div class="caja">Caja 2</div>
-            <div class="caja">Caja 3</div>
-            <div class="caja">Caja 4</div>
+        <div class="contenedor">
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
+            <div class="caja"><img src="image/hide.png" class="img"></div>
         </div>
+        
     </div>
-    <button>Boton</button>
+    <div id="estado">Presionar iniciar para que comience el juego.</div>
+    <button id="Iniciar">Iniciar</button>
+    <button id="Reiniciar" style="display:none;">Reiniciar</button>
 </body>
+<script src="script/juego.js"></script>
 </html>

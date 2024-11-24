@@ -1,27 +1,59 @@
-#principal{
-    background-image: url(./image/4.jpg);
-    background-repeat: repeat;
-    background-attachment: fixed;
-}
-body {
-    
+body{
+    background-color: rgb(39, 187, 224);
 }
 .contenedor-principal{
     display: flex;
-    flex-flow: column;
-    height: 400px;
-    width: 400px;
-    background-color: #ae3245;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.contenedor{
-    height: 100%;
-    width: 100%;
+.contenedor{    
+    height: 500px;
+    width: 500px;
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    border: 5px solid #c00808;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+    justify-content: center;
+}
+.contador{
+    font-size: 30px;
+}
+.tiempo{
+    font-size: 30px;
 }
 .caja{
     width: 100px;
-    height: 100px;
-    background-color: azure;
+    height: 100px;    
+}
+#hide{
+    background-image: url("../image/hide.png");
+}
+#a {
+    background-image: url("../image/1.png");
+}
+#b {
+    background-image: url("../image/2.png");
+}
+#c {
+    background-image: url("../image/3.png");
+}
+#d {
+    background-image: url("../image/4.png");
+}
+#e {
+    background-image: url("../image/5.png");
+}
+#f {
+    background-image: url("../image/6.png");
+}
+#g {
+    background-image: url("../image/7.png");
+}
+#h {
+    background-image: url("../image/8.png");
 }
