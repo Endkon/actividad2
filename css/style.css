@@ -10,8 +10,8 @@ body{
     box-sizing: border-box;
 }
 .contenedor{    
-    max-height: 500px;
-    max-width: 500px;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-flow: row wrap;
     border: 5px solid #c00808;
@@ -27,8 +27,8 @@ body{
     font-size: 30px;
 }
 .caja{
-    max-width: 100px;
-    max-height: 100px;    
+    width: 100px;
+    height: 100px;    
 }
 #hide{
     background-image: url("../image/hide.png");
