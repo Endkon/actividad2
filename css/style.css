@@ -10,8 +10,8 @@ body{
     box-sizing: border-box;
 }
 .contenedor{    
-    height: 500px;
-    width: 500px;
+    max-height: 500px;
+    max-width: 500px;
     display: flex;
     flex-flow: row wrap;
     border: 5px solid #c00808;
